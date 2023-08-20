@@ -1,4 +1,4 @@
-# Solve the following system of equations:
+# Solve the following system of equations using linear algebra:
 # 5x + 3y = 19
 # 2x + 6y = 22
 

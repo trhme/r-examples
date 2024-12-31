@@ -6,7 +6,7 @@ Lines <- "Date Miles\n 2005-10-05 100
 2018-06-22 147803\n 2020-12-24 168650
 2022-01-01 175940
 2022-06-23 179400\n 2023-08-20 182565
-2024-07-12 183260"
+2024-07-12 183260\n 2024-12-31 183400"
 dm <- read.table(textConnection(Lines), header = TRUE)
 dd=as.POSIXlt(dm$Date, format="%Y-%m-%d")
 dn=1900+dd$year+dd$yday/366
